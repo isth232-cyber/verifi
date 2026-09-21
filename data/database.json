@@ -1,0 +1,770 @@
+{
+  "settings": {
+    "aiProvider": "gemini",
+    "geminiApiKeyConfigured": false,
+    "faceVerificationThreshold": 0.82,
+    "faceProvider": "local_biometric",
+    "scoringWeights": {
+      "sourceSignals": 20,
+      "evidenceSupport": 25,
+      "claimConsistency": 20,
+      "contentQuality": 15,
+      "contextRelevance": 10,
+      "crossSourceAgreement": 10
+    },
+    "theme": "navy",
+    "storeBiometricsTemporarily": false,
+    "enableExternalSearch": true
+  },
+  "newsAnalyses": [
+    {
+      "id": "na-1790012506189-uuyyd",
+      "createdAt": "2026-09-21T17:41:46.189Z",
+      "headline": "Scientists at the World Health Organization announce a major breakthrough in mal...",
+      "content": "Scientists at the World Health Organization announce a major breakthrough in malaria vaccine efficacy after clinical trials in three African nations.",
+      "sourceUrl": "",
+      "inputType": "article",
+      "status": "POTENTIALLY MISLEADING",
+      "credibilityScore": 66,
+      "credibilityTier": "Moderate Credibility",
+      "confidence": 58,
+      "riskLevel": "Medium",
+      "summary": "AI assessment score of 66/100 based on multi-factor weighted evidence. Strongest signal: Evidence Support (83/100). Primary concern: Source Signals (47/100).",
+      "breakdown": {
+        "overallScore": 66,
+        "sourceSignals": 47,
+        "evidenceSupport": 83,
+        "claimConsistency": 75,
+        "contentQuality": 60,
+        "contextRelevance": 55,
+        "crossSourceAgreement": 60
+      },
+      "claims": [
+        {
+          "id": "claim-1",
+          "claim": "Scientists at the World Health Organization announce a major breakthrough in malaria vaccine efficacy after clinical trials in three African nations.",
+          "status": "Supported",
+          "confidence": 85,
+          "evidence": "Consistent with contextual reporting norms and verified vocabulary."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-supp-1",
+          "title": "Corroborating Reporting by Independent / Unidentified Source",
+          "source": "Verified News Outlets",
+          "date": "Contemporary",
+          "evidenceType": "Supporting",
+          "relevance": 88,
+          "verificationStatus": "Verified",
+          "snippet": "Core narrative matches established public interest documentation and standard reporting parameters."
+        },
+        {
+          "id": "ev-ctx-1",
+          "title": "Contextual Consistency Verification",
+          "source": "Linguistic & Structural Engine",
+          "evidenceType": "Contextual",
+          "relevance": 82,
+          "verificationStatus": "Contextual",
+          "snippet": "Syntax and semantic cohesion evaluated against standard verified press corpus benchmarks."
+        }
+      ],
+      "sourceAnalysis": {
+        "domain": "unspecified-source",
+        "publisher": "Independent / Unidentified Source",
+        "isHttps": false,
+        "metadataFound": false,
+        "evidenceAvailability": "Moderate",
+        "reputationAssessment": "Source cannot be authenticated from submitted excerpt alone.",
+        "signals": [
+          {
+            "id": "sig-domain",
+            "name": "Domain Reputation",
+            "score": 45,
+            "status": "Unknown",
+            "explanation": "No verifiable domain detected. Evaluating text signals exclusively."
+          },
+          {
+            "id": "sig-https",
+            "name": "Transport Security",
+            "score": 50,
+            "status": "Neutral",
+            "explanation": "HTTPS status unavailable or unlinked."
+          },
+          {
+            "id": "sig-editorial",
+            "name": "Editorial Disclosures",
+            "score": 45,
+            "status": "Warning",
+            "explanation": "Short text snippet lacks formal editorial context or primary citations."
+          }
+        ]
+      },
+      "limitations": [
+        "AI assessment generated via deterministic heuristic NLP and verified domain registry signals.",
+        "Linguistic verification does not substitute for on-the-ground investigative journalism or clinical trials.",
+        "No explicit source URL provided; source metadata evaluated from submitted text content."
+      ],
+      "aiProvider": "local_nlp"
+    },
+    {
+      "id": "na-1790012499360-ftsgs",
+      "createdAt": "2026-09-21T17:41:39.360Z",
+      "headline": "Scientists at the World Health Organization announce a major breakthrough in mal...",
+      "content": "Scientists at the World Health Organization announce a major breakthrough in malaria vaccine efficacy after clinical trials in three African nations.",
+      "sourceUrl": "",
+      "inputType": "article",
+      "status": "POTENTIALLY MISLEADING",
+      "credibilityScore": 66,
+      "credibilityTier": "Moderate Credibility",
+      "confidence": 58,
+      "riskLevel": "Medium",
+      "summary": "AI assessment score of 66/100 based on multi-factor weighted evidence. Strongest signal: Evidence Support (83/100). Primary concern: Source Signals (47/100).",
+      "breakdown": {
+        "overallScore": 66,
+        "sourceSignals": 47,
+        "evidenceSupport": 83,
+        "claimConsistency": 75,
+        "contentQuality": 60,
+        "contextRelevance": 55,
+        "crossSourceAgreement": 60
+      },
+      "claims": [
+        {
+          "id": "claim-1",
+          "claim": "Scientists at the World Health Organization announce a major breakthrough in malaria vaccine efficacy after clinical trials in three African nations.",
+          "status": "Supported",
+          "confidence": 85,
+          "evidence": "Consistent with contextual reporting norms and verified vocabulary."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-supp-1",
+          "title": "Corroborating Reporting by Independent / Unidentified Source",
+          "source": "Verified News Outlets",
+          "date": "Contemporary",
+          "evidenceType": "Supporting",
+          "relevance": 88,
+          "verificationStatus": "Verified",
+          "snippet": "Core narrative matches established public interest documentation and standard reporting parameters."
+        },
+        {
+          "id": "ev-ctx-1",
+          "title": "Contextual Consistency Verification",
+          "source": "Linguistic & Structural Engine",
+          "evidenceType": "Contextual",
+          "relevance": 82,
+          "verificationStatus": "Contextual",
+          "snippet": "Syntax and semantic cohesion evaluated against standard verified press corpus benchmarks."
+        }
+      ],
+      "sourceAnalysis": {
+        "domain": "unspecified-source",
+        "publisher": "Independent / Unidentified Source",
+        "isHttps": false,
+        "metadataFound": false,
+        "evidenceAvailability": "Moderate",
+        "reputationAssessment": "Source cannot be authenticated from submitted excerpt alone.",
+        "signals": [
+          {
+            "id": "sig-domain",
+            "name": "Domain Reputation",
+            "score": 45,
+            "status": "Unknown",
+            "explanation": "No verifiable domain detected. Evaluating text signals exclusively."
+          },
+          {
+            "id": "sig-https",
+            "name": "Transport Security",
+            "score": 50,
+            "status": "Neutral",
+            "explanation": "HTTPS status unavailable or unlinked."
+          },
+          {
+            "id": "sig-editorial",
+            "name": "Editorial Disclosures",
+            "score": 45,
+            "status": "Warning",
+            "explanation": "Short text snippet lacks formal editorial context or primary citations."
+          }
+        ]
+      },
+      "limitations": [
+        "AI assessment generated via deterministic heuristic NLP and verified domain registry signals.",
+        "Linguistic verification does not substitute for on-the-ground investigative journalism or clinical trials.",
+        "No explicit source URL provided; source metadata evaluated from submitted text content."
+      ],
+      "aiProvider": "local_nlp"
+    },
+    {
+      "id": "na-1790011122983-f0mma",
+      "createdAt": "2026-09-21T17:18:42.984Z",
+      "headline": "Test Quantum Breakthrough",
+      "content": "Researchers at an international laboratory published a peer-reviewed dataset on quantum sensors.",
+      "sourceUrl": "https://nature.com",
+      "inputType": "article",
+      "status": "LIKELY CREDIBLE",
+      "credibilityScore": 82,
+      "credibilityTier": "High Credibility",
+      "confidence": 78,
+      "riskLevel": "Low",
+      "summary": "AI assessment score of 82/100 based on multi-factor weighted evidence. Strongest signal: Source Signals (97/100). Primary concern: Context Relevance (55/100).",
+      "breakdown": {
+        "overallScore": 82,
+        "sourceSignals": 97,
+        "evidenceSupport": 91,
+        "claimConsistency": 75,
+        "contentQuality": 75,
+        "contextRelevance": 55,
+        "crossSourceAgreement": 85
+      },
+      "claims": [
+        {
+          "id": "claim-hl",
+          "claim": "Test Quantum Breakthrough",
+          "status": "Supported",
+          "confidence": 88,
+          "evidence": "Primary assertion aligns with standard informative syntax."
+        },
+        {
+          "id": "claim-1",
+          "claim": "Test Quantum Breakthrough Researchers at an international laboratory published a peer-reviewed dataset on quantum sensors.",
+          "status": "Supported",
+          "confidence": 85,
+          "evidence": "Consistent with contextual reporting norms and verified vocabulary."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-supp-1",
+          "title": "Corroborating Reporting by Nature Publishing Group",
+          "source": "nature.com",
+          "url": "https://nature.com",
+          "date": "Contemporary",
+          "evidenceType": "Supporting",
+          "relevance": 88,
+          "verificationStatus": "Verified",
+          "snippet": "Core narrative matches established public interest documentation and standard reporting parameters."
+        },
+        {
+          "id": "ev-ctx-1",
+          "title": "Contextual Consistency Verification",
+          "source": "Linguistic & Structural Engine",
+          "evidenceType": "Contextual",
+          "relevance": 82,
+          "verificationStatus": "Contextual",
+          "snippet": "Syntax and semantic cohesion evaluated against standard verified press corpus benchmarks."
+        }
+      ],
+      "sourceAnalysis": {
+        "domain": "nature.com",
+        "publisher": "Nature Publishing Group",
+        "isHttps": true,
+        "metadataFound": true,
+        "evidenceAvailability": "High",
+        "reputationAssessment": "Tier-1 peer-reviewed scientific journal. Verified in verified domain registry.",
+        "signals": [
+          {
+            "id": "sig-domain",
+            "name": "Domain Reputation Ledger",
+            "score": 98,
+            "status": "Positive",
+            "explanation": "Nature Publishing Group: Tier-1 peer-reviewed scientific journal."
+          },
+          {
+            "id": "sig-https",
+            "name": "Transport Protocol (TLS/HTTPS)",
+            "score": 95,
+            "status": "Positive",
+            "explanation": "Encrypted connection verified with active TLS."
+          }
+        ]
+      },
+      "limitations": [
+        "AI assessment generated via deterministic heuristic NLP and verified domain registry signals.",
+        "Linguistic verification does not substitute for on-the-ground investigative journalism or clinical trials."
+      ],
+      "aiProvider": "local_nlp"
+    },
+    {
+      "id": "na-seed-001",
+      "createdAt": "2026-09-21T12:51:55.140Z",
+      "headline": "Global Renewable Energy Generation Surpasses 30% of Total Electricity Demand in 2024",
+      "content": "According to the latest comprehensive assessment published by the International Energy Agency (IEA), global renewable energy generation reached a historic milestone in 2024, accounting for slightly above 30% of worldwide power demand. The growth was predominantly driven by solar photovoltaic capacity additions across Europe, East Asia, and North America. Grid operators reported increased integration investments to maintain frequency stability amid intermittent supplies.",
+      "sourceUrl": "https://iea.org/reports/renewables-2024",
+      "inputType": "article",
+      "status": "LIKELY CREDIBLE",
+      "credibilityScore": 88,
+      "credibilityTier": "Very High Credibility",
+      "confidence": 94,
+      "riskLevel": "Low",
+      "summary": "Assessment indicates high alignment with established global energy reporting datasets and institutional publications. No linguistic deception patterns identified.",
+      "breakdown": {
+        "overallScore": 88,
+        "sourceSignals": 92,
+        "evidenceSupport": 90,
+        "claimConsistency": 88,
+        "contentQuality": 85,
+        "contextRelevance": 84,
+        "crossSourceAgreement": 89
+      },
+      "claims": [
+        {
+          "id": "claim-1",
+          "claim": "Renewables reached over 30% of global electricity generation in 2024.",
+          "status": "Supported",
+          "confidence": 95,
+          "evidence": "IEA World Energy Outlook 2024 and Ember Clean Power analysis confirm ~30.3% share.",
+          "sources": [
+            "IEA",
+            "Ember Climate"
+          ]
+        },
+        {
+          "id": "claim-2",
+          "claim": "Solar PV installations were the leading driver of new clean energy capacity.",
+          "status": "Supported",
+          "confidence": 92,
+          "evidence": "Global solar installations accounted for approximately 75% of renewable additions.",
+          "sources": [
+            "IRENA 2024 Capacity Statistics"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-1",
+          "title": "IEA Clean Energy Market Monitor 2024",
+          "source": "International Energy Agency",
+          "url": "https://iea.org",
+          "date": "2024-03-15",
+          "evidenceType": "Supporting",
+          "relevance": 96,
+          "verificationStatus": "Verified",
+          "snippet": "Renewables contributed 30.2% of global electricity output, reflecting massive deployment of solar and wind technologies."
+        },
+        {
+          "id": "ev-2",
+          "title": "Global Grid Modernization Review",
+          "source": "World Energy Council",
+          "url": "https://worldenergy.org",
+          "date": "2024-05-20",
+          "evidenceType": "Contextual",
+          "relevance": 85,
+          "verificationStatus": "Verified",
+          "snippet": "Transmission network capital expenditures increased 12% year-over-year to support distributed renewables."
+        }
+      ],
+      "sourceAnalysis": {
+        "domain": "iea.org",
+        "publisher": "International Energy Agency (Intergovernmental Organization)",
+        "publicationDate": "2024-03-15",
+        "author": "Energy Markets & Security Directorate",
+        "isHttps": true,
+        "metadataFound": true,
+        "evidenceAvailability": "High",
+        "reputationAssessment": "Highly reputable intergovernmental organization with rigorous peer-reviewed statistical methodologies.",
+        "signals": [
+          {
+            "id": "sig-1",
+            "name": "Domain Reputation",
+            "score": 95,
+            "status": "Positive",
+            "explanation": "Established intergovernmental research domain with authenticated DNS and publication history."
+          },
+          {
+            "id": "sig-2",
+            "name": "HTTPS Security & TLS",
+            "score": 98,
+            "status": "Positive",
+            "explanation": "Valid SSL/TLS certificate with strict transport security."
+          },
+          {
+            "id": "sig-3",
+            "name": "Editorial Standards",
+            "score": 90,
+            "status": "Positive",
+            "explanation": "Identifiable authors and public methodological documentation."
+          }
+        ]
+      },
+      "limitations": [
+        "Analysis restricted to primary institutional reports and public electricity datasets.",
+        "Regional sub-grid statistics vary in latency and reporting standards."
+      ],
+      "aiProvider": "local_nlp"
+    },
+    {
+      "id": "na-seed-002",
+      "createdAt": "2026-09-20T22:51:55.202Z",
+      "headline": "Secret Miracle Mineral Discovered in Arctic Ice Cures All Known Viral Infections Overnight",
+      "content": "In an astonishing underground briefing leaked today, an unnamed military scientist claims that a crystalline compound extracted from deep Arctic permafrost instantly eradicates all influenza, COVID, and retroviral strains within 4 hours. Big pharmaceutical companies and health authorities are allegedly suppressing the findings to protect trillion-dollar treatments. Order emergency sample kits exclusively from the encrypted link below.",
+      "inputType": "article",
+      "status": "LIKELY FALSE",
+      "credibilityScore": 14,
+      "credibilityTier": "Very Low Credibility",
+      "confidence": 96,
+      "riskLevel": "High",
+      "summary": "High-risk disinformation alert. Text exhibits extreme sensationalism, conspiratorial suppression tropes, zero verifiable clinical trials, anonymous scientific claims, and urgency-driven commercial solicitations.",
+      "breakdown": {
+        "overallScore": 14,
+        "sourceSignals": 12,
+        "evidenceSupport": 8,
+        "claimConsistency": 15,
+        "contentQuality": 10,
+        "contextRelevance": 20,
+        "crossSourceAgreement": 18
+      },
+      "claims": [
+        {
+          "id": "claim-3",
+          "claim": "Arctic mineral compound cures all viral infections within 4 hours.",
+          "status": "Contradicted",
+          "confidence": 98,
+          "evidence": "Completely contradicts established virology, clinical pharmacology, and FDA/WHO records."
+        },
+        {
+          "id": "claim-4",
+          "claim": "Health organizations are actively suppressing miracle antiviral compound.",
+          "status": "Contradicted",
+          "confidence": 92,
+          "evidence": "Standard conspiratorial defense mechanism commonly seen in health product scams."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-3",
+          "title": "WHO Guidelines on Antiviral Therapeutics and Fact Checks",
+          "source": "World Health Organization",
+          "url": "https://who.int",
+          "date": "2024-01-10",
+          "evidenceType": "Contradicting",
+          "relevance": 98,
+          "verificationStatus": "Verified",
+          "snippet": "There is no known single chemical or mineral agent capable of broad-spectrum universal eradication of unrelated viral families."
+        }
+      ],
+      "sourceAnalysis": {
+        "domain": "unknown / unlinked publication",
+        "publisher": "Anonymous Blog Network",
+        "isHttps": false,
+        "metadataFound": false,
+        "evidenceAvailability": "Unavailable",
+        "reputationAssessment": "No identifiable institutional backing, author credentials, or verifiable clinical citations.",
+        "signals": [
+          {
+            "id": "sig-4",
+            "name": "Linguistic Sensationalism",
+            "score": 10,
+            "status": "Negative",
+            "explanation": "High density of hyperbolic buzzwords ('miracle', 'overnight', 'secret suppression')."
+          },
+          {
+            "id": "sig-5",
+            "name": "Publisher Identity",
+            "score": 15,
+            "status": "Negative",
+            "explanation": "No registered organization or verified editorial board found."
+          }
+        ]
+      },
+      "limitations": [
+        "No verified peer-reviewed scientific literature matches the claimed compound or molecular structure."
+      ],
+      "aiProvider": "local_nlp"
+    },
+    {
+      "id": "na-seed-003",
+      "createdAt": "2026-09-20T04:51:55.202Z",
+      "headline": "Tech Giant Quantum Computing Breakthrough Solves RSA-4096 Encryption in Under 10 Seconds",
+      "content": "A circulating viral post suggests that researchers at a leading technology firm have developed a room-temperature quantum processor with 100,000 fault-tolerant logical qubits, successfully factoring RSA-4096 keys in test environments. While the company announced progress on intermediate scale NISQ hardware, commercial cryptographic breaking was not confirmed.",
+      "inputType": "headline_content",
+      "status": "POTENTIALLY MISLEADING",
+      "credibilityScore": 46,
+      "credibilityTier": "Low Credibility",
+      "confidence": 84,
+      "riskLevel": "Medium",
+      "summary": "Assessment finds misinterpretation of actual scientific research. A genuine quantum hardware progress announcement was conflated with an exaggerated claim of breaking modern public-key cryptography.",
+      "breakdown": {
+        "overallScore": 46,
+        "sourceSignals": 60,
+        "evidenceSupport": 40,
+        "claimConsistency": 35,
+        "contentQuality": 52,
+        "contextRelevance": 48,
+        "crossSourceAgreement": 42
+      },
+      "claims": [
+        {
+          "id": "claim-5",
+          "claim": "Quantum processor successfully factored RSA-4096 in 10 seconds.",
+          "status": "Questionable",
+          "confidence": 88,
+          "evidence": "NIST and peer-reviewed quantum benchmarks show current hardware remains orders of magnitude away from Shor's algorithm at 4096 bits."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ev-4",
+          "title": "NIST Post-Quantum Cryptography Standardization Report",
+          "source": "National Institute of Standards and Technology",
+          "url": "https://nist.gov",
+          "date": "2024-08-13",
+          "evidenceType": "Contradicting",
+          "relevance": 90,
+          "verificationStatus": "Verified",
+          "snippet": "Fault-tolerant quantum computing capable of threatening RSA-2048 or RSA-4096 requires millions of physical qubits with error correction, not achieved to date."
+        }
+      ],
+      "sourceAnalysis": {
+        "domain": "social-discussion.net",
+        "publisher": "Online Tech Forum Post",
+        "isHttps": true,
+        "metadataFound": true,
+        "evidenceAvailability": "Moderate",
+        "reputationAssessment": "Unvetted forum speculation amplifying an academic press release beyond its stated empirical scope.",
+        "signals": [
+          {
+            "id": "sig-6",
+            "name": "Cross-Source Corroboration",
+            "score": 40,
+            "status": "Warning",
+            "explanation": "No corroborating statements from NIST or recognized cryptographic conferences."
+          }
+        ]
+      },
+      "limitations": [
+        "Company research paper verified, but claimed encryption cracking capability is unsubstantiated."
+      ],
+      "aiProvider": "local_nlp"
+    }
+  ],
+  "faceVerifications": [
+    {
+      "id": "fv-1790011144074-68oj3",
+      "createdAt": "2026-09-21T17:19:04.074Z",
+      "status": "UNABLE TO VERIFY",
+      "similarity": 0,
+      "confidence": 85,
+      "thresholdUsed": 0.82,
+      "explanation": "Unable to detect a clear human face in one or both submitted images. Check lighting and camera framing.",
+      "referenceMetrics": {
+        "faceDetected": false,
+        "facesCount": 1,
+        "imageQuality": "Medium",
+        "poseQuality": "Optimal",
+        "lighting": "Adequate",
+        "sharpnessScore": 64
+      },
+      "verificationMetrics": {
+        "faceDetected": false,
+        "facesCount": 1,
+        "imageQuality": "Medium",
+        "poseQuality": "Optimal",
+        "lighting": "Adequate",
+        "sharpnessScore": 64
+      },
+      "provider": "local_biometric",
+      "privacyNotice": "Zero Permanent Biometric Storage: Images were processed ephemerally in RAM. Raw biometric embeddings are immediately purged from volatile memory."
+    },
+    {
+      "id": "fv-seed-001",
+      "createdAt": "2026-09-21T08:51:55.202Z",
+      "status": "MATCH",
+      "similarity": 94.2,
+      "confidence": 96,
+      "thresholdUsed": 0.82,
+      "explanation": "Facial feature embeddings were compared across key ocular, nasal, and jawline landmarks. Cosine similarity of 0.94 exceeded the configured threshold of 0.82.",
+      "referenceMetrics": {
+        "faceDetected": true,
+        "facesCount": 1,
+        "imageQuality": "High",
+        "poseQuality": "Optimal",
+        "lighting": "Adequate",
+        "sharpnessScore": 92
+      },
+      "verificationMetrics": {
+        "faceDetected": true,
+        "facesCount": 1,
+        "imageQuality": "High",
+        "poseQuality": "Optimal",
+        "lighting": "Adequate",
+        "sharpnessScore": 89
+      },
+      "provider": "local_biometric",
+      "privacyNotice": "Biometric vectors computed in-memory. Raw imagery discarded pursuant to local data governance."
+    },
+    {
+      "id": "fv-seed-002",
+      "createdAt": "2026-09-20T14:51:55.202Z",
+      "status": "NO MATCH",
+      "similarity": 38.6,
+      "confidence": 94,
+      "thresholdUsed": 0.82,
+      "explanation": "Facial landmark vectors do not match. Cosine similarity of 0.39 fell well below the configured threshold of 0.82.",
+      "referenceMetrics": {
+        "faceDetected": true,
+        "facesCount": 1,
+        "imageQuality": "High",
+        "poseQuality": "Optimal",
+        "lighting": "Adequate",
+        "sharpnessScore": 90
+      },
+      "verificationMetrics": {
+        "faceDetected": true,
+        "facesCount": 1,
+        "imageQuality": "Medium",
+        "poseQuality": "Angled",
+        "lighting": "Uneven",
+        "sharpnessScore": 78
+      },
+      "provider": "local_biometric",
+      "privacyNotice": "Biometric vectors computed in-memory. Raw imagery discarded pursuant to local data governance."
+    }
+  ],
+  "history": [
+    {
+      "id": "hist-1790012506190",
+      "type": "news",
+      "title": "Scientists at the World Health Organization announce a major breakthrough in mal...",
+      "inputSummary": "Scientists at the World Health Organization announce a major breakthrough in malaria vaccine efficac...",
+      "result": "POTENTIALLY MISLEADING",
+      "score": 66,
+      "confidence": 58,
+      "riskLevel": "Medium",
+      "createdAt": "2026-09-21T17:41:46.189Z",
+      "statusTag": "Moderate",
+      "targetId": "na-1790012506189-uuyyd"
+    },
+    {
+      "id": "hist-1790012499362",
+      "type": "news",
+      "title": "Scientists at the World Health Organization announce a major breakthrough in mal...",
+      "inputSummary": "Scientists at the World Health Organization announce a major breakthrough in malaria vaccine efficac...",
+      "result": "POTENTIALLY MISLEADING",
+      "score": 66,
+      "confidence": 58,
+      "riskLevel": "Medium",
+      "createdAt": "2026-09-21T17:41:39.360Z",
+      "statusTag": "Moderate",
+      "targetId": "na-1790012499360-ftsgs"
+    },
+    {
+      "id": "hist-1790011144076",
+      "type": "face",
+      "title": "Face Verification [UNABLE TO VERIFY]",
+      "inputSummary": "Biometric similarity: 0% (Threshold: 82%)",
+      "result": "UNABLE TO VERIFY",
+      "score": 0,
+      "confidence": 85,
+      "createdAt": "2026-09-21T17:19:04.074Z",
+      "statusTag": "Unverified",
+      "targetId": "fv-1790011144074-68oj3"
+    },
+    {
+      "id": "hist-1790011122986",
+      "type": "news",
+      "title": "Test Quantum Breakthrough",
+      "inputSummary": "Researchers at an international laboratory published a peer-reviewed dataset on quantum sensors....",
+      "result": "LIKELY CREDIBLE",
+      "score": 82,
+      "confidence": 78,
+      "riskLevel": "Low",
+      "createdAt": "2026-09-21T17:18:42.984Z",
+      "statusTag": "Verified",
+      "targetId": "na-1790011122983-f0mma"
+    },
+    {
+      "id": "hist-001",
+      "type": "news",
+      "title": "Global Renewable Energy Generation Surpasses 30%",
+      "inputSummary": "According to the latest comprehensive assessment published by the IEA...",
+      "result": "LIKELY CREDIBLE",
+      "score": 88,
+      "confidence": 94,
+      "riskLevel": "Low",
+      "createdAt": "2026-09-21T12:51:55.202Z",
+      "statusTag": "Verified",
+      "targetId": "na-seed-001"
+    },
+    {
+      "id": "hist-002",
+      "type": "face",
+      "title": "Identity Verification - Ref #4021 vs Probe #4022",
+      "inputSummary": "Dual-image biometric facial landmark verification",
+      "result": "MATCH",
+      "score": 94,
+      "confidence": 96,
+      "createdAt": "2026-09-21T08:51:55.202Z",
+      "statusTag": "Verified",
+      "targetId": "fv-seed-001"
+    },
+    {
+      "id": "hist-003",
+      "type": "news",
+      "title": "Secret Miracle Mineral Discovered in Arctic Ice Cures All...",
+      "inputSummary": "In an astonishing underground briefing leaked today...",
+      "result": "LIKELY FALSE",
+      "score": 14,
+      "confidence": 96,
+      "riskLevel": "High",
+      "createdAt": "2026-09-20T22:51:55.202Z",
+      "statusTag": "High Risk",
+      "targetId": "na-seed-002"
+    },
+    {
+      "id": "hist-004",
+      "type": "face",
+      "title": "Identity Verification - Ref #3109 vs Probe #3110",
+      "inputSummary": "Dual-image biometric facial landmark verification",
+      "result": "NO MATCH",
+      "score": 39,
+      "confidence": 94,
+      "createdAt": "2026-09-20T14:51:55.202Z",
+      "statusTag": "Unverified",
+      "targetId": "fv-seed-002"
+    },
+    {
+      "id": "hist-005",
+      "type": "news",
+      "title": "Tech Giant Quantum Computing Breakthrough Solves RSA-4096...",
+      "inputSummary": "A circulating viral post suggests that researchers at a leading...",
+      "result": "POTENTIALLY MISLEADING",
+      "score": 46,
+      "confidence": 84,
+      "riskLevel": "Medium",
+      "createdAt": "2026-09-20T04:51:55.202Z",
+      "statusTag": "Moderate",
+      "targetId": "na-seed-003"
+    }
+  ],
+  "reports": [
+    {
+      "id": "rep-001",
+      "analysisId": "na-seed-001",
+      "type": "news",
+      "title": "Verification Report: Global Renewable Energy Generation Surpasses 30%",
+      "generatedAt": "2026-09-21T13:51:55.202Z",
+      "inputSummary": "IEA published assessment on global renewable energy generation reaching 30%...",
+      "result": "LIKELY CREDIBLE",
+      "credibilityScore": 88,
+      "confidence": 94,
+      "riskLevel": "Low",
+      "scoreBreakdown": {
+        "overallScore": 88,
+        "sourceSignals": 92,
+        "evidenceSupport": 90,
+        "claimConsistency": 88,
+        "contentQuality": 85,
+        "contextRelevance": 84,
+        "crossSourceAgreement": 89
+      },
+      "limitations": [
+        "Regional sub-grid statistics vary in reporting cadence.",
+        "Assessments are algorithmic and probabilistic, not absolute determinations of truth."
+      ],
+      "disclaimer": "TRUSTVERIFY AI provides probabilistic credibility analysis based on empirical data, linguistic patterns, and available references. It should not be used as the sole determinant for legal or clinical decisions."
+    }
+  ]
+}
