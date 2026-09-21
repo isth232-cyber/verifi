@@ -150,4 +150,5 @@ npm start
    - Adjust the Cosine Similarity Threshold slider or the 6 Scoring Factor weights.
    - Save changes and observe dynamic updates across the platform.
 #   v e r i f i  
+ #   v e r i f i  
  
